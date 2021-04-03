@@ -1,0 +1,52 @@
+p.titulo1{ 
+    font-family: Arial;
+}
+
+form{
+}
+
+input[type="nome"] {
+    outline-color: crimson;
+    
+}
+
+label.nome{ font-family: Arial;
+    
+}
+
+label.email{
+font-family: Arial;
+}
+
+label.endereco{ font-family: Arial; 
+}
+
+label.telefone{
+font-family: Arial;
+}
+
+label.logra{ font-family: Arial;
+}
+
+label.numero{ font-family: Arial;
+}
+
+label.bairro{font-family: Arial; 
+}
+ 
+label.cidade{ font-family: Arial; }
+
+label.cep{ font-family: Arial;
+}
+
+label.Ecivil{ font-family: Arial;   
+}
+
+label.estado{ font-family: Arial;
+}
+body{
+    background-color: rgb(214, 140, 155);
+    text-align: center;
+}
+
+ 

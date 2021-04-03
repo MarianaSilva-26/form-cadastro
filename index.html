@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="titulo1">Formulário de Cadastro</p>
+    <form>
+    <label class="nome" for="nome_completo">Nome:</label>
+    <input type="nome" id="nome_completo" name="nome_completo" placeholder="digite seu texto aqui...">
+
+    </p>
+     
+    <label class="email" for="e-mail">E-mail:</label>
+    <input type="email" id="e-mail" name="e-mail"> 
+
+    <p>
+
+    <label class="telefone" for="tel">Telefone</label>
+    <input type="telefone" name="telefone" id="telefone">
+
+    </p>
+
+    <label class="endereco" for="end">Endereço</label>
+    </p>
+    <label class="logra">Logradouro</label>
+    <input type="logradouro" id="logradouro" name="Logradoro">
+
+    <label class="numero">Número</label>
+    <input type="number" name="numero" id="numero">
+
+    <label class="bairro">Bairro</label>
+    <input type="bairro" name="bairro" id="bairro">
+
+    <P>
+
+    <label class="cidade" for="cidades">Cidade:</label>
+    <select name="cidade" id="cidade">
+    <option value="0" selected>--- selecione ---</option>
+    <option value="cidade1">Santos</option>
+    <option value="cidade2">São Vicente</option>
+    <option value="cidade3">Praia Grande</option>
+    <option value="cidade4">Mongaguá</option>
+    <option value="cidade5">Itanhaém</option>
+    <option value="cidade6">Peruibe</option>
+    </select>
+
+    <P>
+
+    <label class="estado" for="estado">Estado:</label>
+    <select name="estado" id="estado">
+    <option value="0" selected>--- Selecione ---</option>
+    <option value="estado1">SP</option>
+    <option value="estado2">MT</option>
+    <option value="estado3">RS</option>
+    <option value="estado4">GO</option>
+    <option value="estado5">AM</option>
+    <option value="estado6">BH</option>
+    </select>
+
+    </p>
+    <label class="cep" for="cep">CEP:</label>
+    <input type="cep" name="cep" id="cep">
+    </P>
+
+    <fieldset>
+    <legend><label class="Ecivil">Estado Civil</label></legend>
+    <input class="s1" type="radio" id="estado_civil_S" name="estado_civil">
+    <label for="estado_civil">Solteiro</label>
+
+    <input type="radio" id="estado_civil_C" name="estado_civil">
+    <label for="estado_civil">Casado</label>
+
+    <input type="radio" id="estado_civil_D" name="estado_civil">
+    <label for="estado_civil">Divorciado</label>
+
+    <input type="radio" id="estado_civil_V" name="estado_civil">
+    <label for="estado_civil">Viúvo</label>
+
+    <input type="radio" id="estado_civil_S" name="estado_civil">
+    <label for="estado_civil">Separado</label>
+    </fieldset>
+
+    </p>
+    
+    <input class="checkbox" type="checkbox" name="li_e_concordo" id="li_e_concordo">
+    <label for="li_e_concordo">Li e concordo com os termos</label>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Reiniciar Formulario</button>
+    </form>
+</body>
+</html>
